@@ -1,0 +1,11 @@
+body {
+	background-color:red;
+	color:white;
+	font-family : Tahoma;
+
+}
+img{
+	border-width: 1px;
+	border-color : white;
+	border-style : solid;
+}
