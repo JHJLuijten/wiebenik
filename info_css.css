@@ -3,6 +3,10 @@ body {
 	color:white;
 	font-family : Tahoma;
 }
+h1 {
+	color:grey;
+
+}
 img{
 	border-width: 1px;
 	border-color : white;
