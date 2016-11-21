@@ -44,3 +44,12 @@ li a.active {
     color: white;
     background-color:red;
 }
+nav {
+    float:left;
+
+}
+div.content{
+    padding:50px; 
+    margin:0 110px; 
+    min-width:480px
+}
