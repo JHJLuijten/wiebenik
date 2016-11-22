@@ -4,7 +4,7 @@ body {
 	font-family : Tahoma;
 }
 h1 {
-	color:grey;
+	color:white;
 
 }
 img{
@@ -14,18 +14,21 @@ img{
 }
 
 ul {
-	width:100px;
+	width:120px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #663300;
     background-color: #f3f3f3;
+    text-align: center;
 }
 
-li {
-    float: left;
+li.nav {
+    width: 120px;
+
 }
+
 
 li a {
     display: block;
@@ -37,19 +40,34 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #ddd;
+    background-color: grey;
+    text-align:center;
+    text-decoration: none;
+    color:white;
 }
 
 li a.active {
     color: white;
-    background-color:red;
+    background-color:black;
+ 
 }
 nav {
     float:left;
-
+    width:120px;
 }
 div.content{
     padding:50px; 
     margin:0 110px; 
     min-width:480px
+}
+a {
+    padding:10px;
+
+}
+.werk {
+    max-width:600px;
+    list-style-type: none;
+}
+#popetje{
+    float: right;
 }
